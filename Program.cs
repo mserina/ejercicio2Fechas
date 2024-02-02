@@ -7,7 +7,7 @@ namespace ejercicio2Propiedades{
 
         static void Main(string[] args)
         {
-            DateTime fechaHoy = DateTime.Today;
+            DateTime fechaHoy = DateTime.Now;
 
             Console.WriteLine("DIA");
             Console.WriteLine(fechaHoy.Day);
@@ -22,7 +22,7 @@ namespace ejercicio2Propiedades{
 
             Console.WriteLine(" ");
             Console.WriteLine("HORA");
-            Console.WriteLine(fechaHoy);
+            Console.WriteLine(fechaHoy.Hour);
 
             Console.WriteLine(" ");
             Console.WriteLine("MINUTOS");
